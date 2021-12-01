@@ -1,0 +1,46 @@
+@media (max-width:600px) {
+  #navbar {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  #navbar .logo{
+    margin-bottom: 0.75rem;
+  }
+  
+  #navbar ul{
+    padding: 0.5rem;
+  }
+}
+#what .items{
+  display: block;
+}
+
+#what .items .item:nth-child(-n+2){
+ border-bottom: dotted 1px #d4d4d4;
+ margin-bottom: 2rem;
+}  
+
+#who{
+  flex-direction: column;
+}
+
+#who .who-img{
+  display: none;
+}
+
+#clients .items img{
+  width: 80%;
+}
+
+#clients .items div:last-child{
+  display: none;
+}
+
+#contact{
+  flex-direction: column;
+}
+
+#contact .img {
+  padding:12rem 0 ;
+}
